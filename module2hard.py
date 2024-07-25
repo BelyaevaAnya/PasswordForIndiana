@@ -11,8 +11,7 @@ def get_password(number):
 
 
 num_usr = int(input('Введите число для получения пароля:'))
-passwod_str = get_password(num_usr)
-print(f'Пароль:{num_usr}-{passwod_str}')
+print(f'Пароль:{num_usr}-{get_password(num_usr)}')
 
 # Введите число для получения пароля:3
 # Пароль:3-12
