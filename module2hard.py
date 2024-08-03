@@ -1,5 +1,3 @@
-import itertools
-from itertools import chain
 def get_password(number):
     # Получаем лист с элементами пар [i, j]
     passwod_lst = [[i, j]
